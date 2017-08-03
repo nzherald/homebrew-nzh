@@ -3,7 +3,7 @@ require "language/haskell"
 class Insights < Formula
   include Language::Haskell::Cabal
 
-  version_number = "0.2.1.0"
+  version_number = "0.2.1.1"
 
   desc "NZH Insights static site build tool"
   homepage "https://github.com/nzherald/insights"
