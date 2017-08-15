@@ -11,8 +11,8 @@ class Insights < Formula
   sha256 "56cc7f4f53272c73cc5de98234d3b5a4dca12ed8046414d037916f0388f7ca78"
 
   bottle do
-    root_url "https://github.com/nzherald/homebrew-nzh/raw/master/Bottles"
-      sha256 "bb2591d3956420914028b72bebfc762c19cdd352cd1eb444d7ffe57085c0a669" => :sierra
+    root_url "http://bottles.newsapps.nz"
+    sha256 "e5e2377b842e59e4e21398b15414353e25b51604de24ac281a6a6e625dc84270" => :sierra
   end
 
   depends_on "ghc" => :build
