@@ -3,16 +3,16 @@ require "language/haskell"
 class Insights < Formula
   include Language::Haskell::Cabal
 
-  version_number = "0.4.2.1"
+  version_number = "0.4.3.1"
 
   desc "NZH Insights static site build tool"
   homepage "https://github.com/nzherald/insights"
   url "https://github.com/nzherald/insights/archive/#{version_number}.tar.gz"
-  sha256 "0fcffb29fc58407c0d47ff63e9c506506629d491ea679cef89dfa35dbdf04e09"
+  sha256 "bfd2c8b816ebe396c2a8cfe08b361fcdc44003a6a9c848b36066199ee135d897"
 
   bottle do
     root_url "http://bottles.newsapps.nz"
-    sha256 "f35c14ece5aad5e604e814723900de5bd503eba7f021908be0c2272c4a81af0c" => :sierra
+    sha256 "a6d5a2f623d0a6e579442988879247508cbfdb7862593fed2c7b6d5e643b45fb" => :sierra
   end
 
   depends_on "ghc" => :build
